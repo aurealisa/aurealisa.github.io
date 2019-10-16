@@ -1,33 +1,94 @@
-<!DOCTYPE html>
 <html>
-  <head>
-    <meta charset='utf-8'/>
-    <title>Aurealisa CSS and JS Hosting</title>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600,700" rel="stylesheet" type="text/css">
-    <style type="text/css">
-      body {
-        margin: 0;
-        padding: 20px;
-        font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-        font-size: 16px;
-      }
-      h1, h2, h3 {
-        line-height: 1;
-        margin: 0.2em 0;
-      }
-      h2 {
-        font-weight: 300;
-      }
-      a {
-        color: #42bdc2;
-        text-decoration:none;
-      }
-      a:hover {
-        text-decoration: underline;
-      }
-    </style>
-  </head>
-  <body>
-    <h1><a href="https://aurealisa.blogspot.com" rel="noopener" target="_blank"><img alt="Aurealisa Logo" src="aurealisa.png" title="Aurealisa Logo"></a></h1>
-    <h2>Free and Premium Blogger Templates</h2>
-<p>Hosting CSS and JS Files by <a href="https://aurealisa.blogspot.com" rel="noopener" target="_blank">Aurealisa</a></p>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width-device-width, initial-scale=1">
+	<!--this sets the responsive layout-->
+	<link href='https://fonts.googleapis.com/css?family=Roboto:100' rel='stylesheet' type='text/css'>
+	<title>Aurealisa CSS and JS Hosting</title>
+  <style>
+    html, body{
+  margin: 0 auto;
+	height: 100%;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+}
+
+#header {
+	background: linear-gradient(rgba(0, 0, 75, 0.5), rgba(30, 0, 0, 0.5)), url(/resource/img/New_York_City_Skyline_Fog.jpg);
+	height: 100vh;
+	width: 100vw;
+	background-size: cover;
+	display: flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	margin: 0 auto;
+}
+
+h1, p {
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 600;
+	text-transform: uppercase;
+	line-height: 0.8;
+
+}
+
+h1 {
+	font-size: 60pt;
+	text-align: center;
+	line-height: .2em;
+}
+
+p {
+	font-size: 30pt;
+	text-align: center;
+	line-height: 1em;
+}
+
+button {
+  padding: 12px 19px;
+  background:transparent;
+  color:#fff;
+  border: 2px solid white;
+  font-size: 15px;
+  border-radius: 0px;
+  transition: all .3s ease;
+}
+
+button:hover {
+  background: white;
+  color: black;  
+}
+@media (max-width: 600px) {
+  h1 {
+      font-size: 40pt;
+    }
+  p {
+    font-size: 20pt;
+    font-weight: 300;
+  }
+}
+
+@media (max-width: 364px) {
+  h1 {
+      font-size: 30pt;
+    }
+  p {
+    font-size: 15pt;
+    font-weight: 300;
+  }
+}
+  </style>
+<body>
+	<div id="header">
+		
+		<h1>Aurealisa<br><p>A Simple Way to KNOW</p></h1>
+  <div class="button">
+    <a href='/blog/index.html'>
+    <button type="button">ENTER</button>
+      </a>
+  </div>
+</body>
+</head>
+</html>
